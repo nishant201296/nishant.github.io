@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.iq.colearn.dev",
-    "sha256_cert_fingerprints":
-    ["F7:C8:04:53:DB:65:59:04:6A:E4:05:19:5B:D3:27:81:46:83:57:67:11:48:88:EA:FB:29:B4:30:A4:A4:F3:9D"]
-  }
-}]
