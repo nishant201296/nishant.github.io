@@ -28,7 +28,7 @@ const ResumePage = async () => {
             Work Experience
           </h2>
           <Link
-            href={`${process.env.NEXT_PUBLIC_STATIC_ASSETS_URL}/resume.pdf`}
+            href={personalData.basics.resume_url}
             target="_blank"
             className="text-md"
           >
@@ -75,9 +75,9 @@ const ResumePage = async () => {
                     </div>
                   </div>
 
-                  <div className="text-sm sm:text-md">
-                    {workItem.description}
-                  </div>
+                  {/* <div className="text-sm sm:text-md">
+                    {workItem}
+                  </div> */}
                 </div>
                 <div className="sm:flex-1 tracking-wide">
                   <ul>

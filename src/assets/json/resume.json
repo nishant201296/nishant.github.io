@@ -1,169 +1,83 @@
 {
-  "selectedTemplate": 1,
-  "headings": {
-    "skills": "",
-    "projects": "",
-    "awards": ""
-  },
   "basics": {
-    "email": "shivam123425@gmail.com",
-    "phone": "+971 050 387 7317",
-    "website": "https://www.shivam.quest/",
-    "location": {
-      "address": "Abu Dhabi, UAE"
+    "name": "Nishant Kaushik",
+    "email": "kaushiknishant1996@gmail.com",
+    "phone": {
+        "india":"+91 8080973330",
+        "uae": "+971 567942587"
     },
-    "name": "Shivam Kumar"
-  },
-  "education": [
-    {
-      "location": "New Delhi, India",
-      "area": "IT",
-      "studyType": "B.Tech",
-      "startDate": "Aug 2016",
-      "endDate": "Aug 2020",
-      "gpa": "9",
-      "institution": "Maharaja Agrasen Institute of Technology (IPU)"
+    "resume_url":"https://firebasestorage.googleapis.com/v0/b/portfolio-8d931.appspot.com/o/NishantKaushikResume_UAE.pdf?alt=media&token=02182f96-4ca9-41b5-980d-5d472b40bdd6",
+    "profile_img":"",
+    "website": "https://nishant201296.github.io/",
+    "current_location": "Abu Dhabi, UAE",
+    "socials":{
+      "twitter":"https://x.com/nishant_on_code",
+      "linkedin":"https://www.linkedin.com/in/kaushiknishant1996/",
+      "website":"",
+      "github":"https://github.com/nishant201296"
     }
-  ],
+  },
+  "summary":"Software engineer skilled in problem-solving, robust architecture design, focused on mobile with experience in leading remote teams across time zones",
   "work": [
     {
       "company": "CoLearn",
       "position": "Lead Engineer (Promoted & Relocated)",
-      "website": "",
+      "website": "https://colearn.id/",
       "highlights": [
-        "Leveraging ReactJS, NextJS and NodeJS to serve 4 million monthly active users on colearn.id, Indonesia’s premier EdTech startup.",
-        "Led a team of 2 frontend developers in creating a student insights platform for teachers, resulting in a daily 4-hour reduction of manual work for the operations team.",
-        "Took charge of managing a NodeJS BFF layer and achieved a 75% reduction in startup CPU utilization by optimising the build process.",
-        "Integrated a distributed job scheduler for NodeJS BFF layer to precompute data for the student insights platform and serve it via CDN for faster page load speeds.",
-        "Suggested and implemented Google ReCaptcha on public facing form pages as a measure to deter abusive traffic."
+        "Led mobile team in building and optimizing interfaces, delivering product stories, and implementing cross-platform web pages with reusable components using the React Native Web framework.",
+        "Reduced adoption time, sped up store reviews, and lowered operation costs by implementing Live Updates in native Android and iOS apps using React Native components as web pages.",
+        
+        "Reduced backend scaling costs and app load time by 50% through implementing a caching system by leveraging AWS S3, Lambda, and CDN.",
+        "Automated push notifications using Google Cloud Function and Firebase Cloud Messaging, reducing backend dependency.",
+        "Migrated CI/CD pipelines from AppCenter to Azure pipelines, reducing operation cost."
       ],
       "location": "Abu Dhabi, UAE",
-      "startDate": "5 months (Jan 2024",
-      "endDate": "Present)"
+      "startDate": "Aug 2023",
+      "endDate": "Present"
     },
     {
-      "highlights": [
-        "Led the development of a custom in-house video ad delivery system to reach 4 million monthly active users and capture high-quality sales leads.",
-        "Led the development of an ad-free subscription experience on colearn.id, opening up a new revenue stream.",
-        "Improved Core Web Vitals by cutting/lazy loading Javascript, boosting average page rank from 4.7 to 3.4 through collective effort.",
-        "Took responsibility for maintaining a custom legacy CMS portal, which serves as the backbone for all manual operations within the organization."
-      ],
+      
       "company": "CoLearn",
-      "position": "Product Engineer",
+      "position": "Senior Software Engineer",
+      "website": "https://colearn.id/",
+      "highlights": [
+       "Optimized placements to boost user engagement and revenue by using Google Ad Manager to serve pre-roll and banner ads.",
+       "Launched purchase flows via Google play & App store to enable ads-free experience on app, boosting monetization.",
+       "Revised and modularized old codebases using MVVM and Clean Architecture, and improving functionality and maintainability.",
+       "Integrated a CI/CD pipeline using GitHub actions and App Center, streamlining the development workflow and enhancing deployment efficiency.",
+       "Implemented unit testing and advanced debugging to maintain 99.90% crash- free sessions and conducted Code Reviews.",
+       "Improved code quality and teamwork with regular pair programming.",
+       "Worked on a Push based QnA feature to work along with Zoom Meeting for live sessions using RTDB."
+      ],
       "location": "Remote, India",
-      "startDate": "1yr 10 months (Mar 2022",
-      "endDate": "Jan 2024)"
+      "startDate": "Apr 2022",
+      "endDate": "Aug 2023"
     },
     {
       "highlights": [
-        "Contributed to the development of now.gg, a cloud gaming web platform with a current user base of 100 million.",
-        "Leveraged ReactJS, Vanilla Javascript, and WebRTC to provide a seamless cloud gaming experience from an Android instance in the cloud to a user’s browser.",
-        "Implemented Single Sign-On to enable seamless user profile access during cloud gaming transitions.",
-        "Contributed to a WebAssembly-based input mapping library for browser gaming with keyboards or joysticks.",
-        "Leveraged ReactJS to implement an onboarding flow for Xbox users, resulting in a 50,000 user base increase."
+        "Worked on a wearable app using Wear OS and an Android app to show current Cricket scores for ESPN CricInfo with more than 10 Million downloads.",
+        "Consulted at CoLearn, significantly improving their Android app's engagement and performance. Hired full-time for delivering exceptional results and showcasing technical expertise and strong collaboration skills."
       ],
-      "company": "BlueStacks (now.gg)",
-      "position": "Member Of Technical Staff",
-      "location": "Gurugram, India",
-      "startDate": "8 months (Aug 2021",
-      "endDate": "Mar 2022)"
+      "company": "Procedure Tech.",
+      "position": "Senior Software Engineer",
+      "website": "https://procedure.tech/",
+      "location": "Mumbai, India",
+      "startDate": "Apr 2021",
+      "endDate": "Apr 2022"
     },
     {
       "highlights": [
-        "Contributed to the development of web applications aimed at meeting the higher education preparation needs of students.",
-        " Leveraged ReactJS, Redux, and Redux Saga to develop CMS for one of India’s largest higher education preparation institutes.",
-        "Contributed to refactoring the CMS study material preparation flow and implemented user-friendly features like drag-and-drop to enhance operations team efficiency."
+        "Built mobile app using Native Android and Flutter technologies.",
+        "Built an Android app as an interface for managing physical and virtual, gift and reload-able cards.",
+        "Using Multi-factor-Auth built an android app serving as IDP and for User KYC feature.",
+        "Implemented REST API calls to get relevant data from the app's server.",
+        "Used MVVM pattern improve code architecture."
       ],
-      "company": "Edfora(MyPAT)",
-      "position": "Software Engineer",
-      "location": "New Delhi, India",
-      "startDate": "1yr 5 months (Mar 2020",
-      "endDate": "Aug 2021)"
+      "company": "Finclusion Services Pvt. Ltd.",
+      "position": "Software Developer",
+      "location": "Mumbai, India",
+      "startDate": "Dec 2018",
+      "endDate": "Apr 2021"
     }
-  ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "level": "",
-      "keywords": [
-        "Javascript",
-        "Python"
-      ]
-    },
-    {
-      "keywords": [
-        "HTML5",
-        "CSS3",
-        "ReactJS",
-        "Typescript",
-        "Redux",
-        "Redux Saga",
-        "NextJS",
-        "PWA",
-        "Javascript"
-      ],
-      "name": "Frontend Technologies"
-    },
-    {
-      "keywords": [
-        "NodeJS",
-        "ExpressJS",
-        "EJS",
-        "MongoDB",
-        "Postgres",
-        "Redis",
-        "AWS",
-        "Docker",
-        "Nginx"
-      ],
-      "name": "Backend Technologies"
-    },
-    {
-      "keywords": [
-        "Git",
-        "Github",
-        "JIRA",
-        "Problem Solving"
-      ],
-      "name": "Miscellaneous"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Saccha Samarpan NGO official website",
-      "keywords": [
-        "ReactJS",
-        "NodeJS",
-        "MongoDB",
-        "Redux",
-        "Redux Thunk",
-        "ExpressJS"
-      ],
-      "url": "https://sacchasamarpan.com/",
-      "description": "A web app developed for “Saccha Samarpan NGO” to display information and events, and a CMS dashboard to manage ongoing and upcoming events."
-    }
-  ],
-  "awards": [
-    {
-      "title": "1st rank in academics",
-      "date": "2018",
-      "awarder": "Maharaja Agrasen Institute of Technology",
-      "summary": "Scored highest in 2nd year of my undergraduate college degree program"
-    },
-    {
-      "title": "3rd rank",
-      "awarder": "HackGTBIT",
-      "date": "2019",
-      "summary": "Scored 3rd rank in HackGTBIT out of a total of 80 teams"
-    }
-  ],
-  "sections": [
-    "templates",
-    "profile",
-    "work",
-    "skills",
-    "projects",
-    "education",
-    "awards"
   ]
 }
