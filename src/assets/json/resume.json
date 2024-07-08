@@ -6,8 +6,8 @@
         "india":"+91 8080973330",
         "uae": "+971 567942587"
     },
-    "resume_url":"https://firebasestorage.googleapis.com/v0/b/portfolio-8d931.appspot.com/o/NishantKaushikResume_UAE.pdf?alt=media&token=02182f96-4ca9-41b5-980d-5d472b40bdd6",
-    "profile_img":"",
+    "resume_url":"/NishantKaushikResume_UAE.pdf",
+    "profile_img":"@/assets/images/pic.jpeg",
     "website": "https://nishant201296.github.io/",
     "current_location": "Abu Dhabi, UAE",
     "socials":{

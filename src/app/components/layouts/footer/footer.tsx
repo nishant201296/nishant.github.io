@@ -14,13 +14,13 @@ export const Footer = async () => {
       </div>
       <div className="text-md order-1 sm:order-2 flex items-center justify-between flex-wrap gap-8">
         <div>
-          <p className="font-medium text-center mb-2">Call</p>
-          <Link
+          {/* <p className="font-medium text-center mb-2">Call</p> */}
+          {/* <Link
             className="no-underline text-primary text-xs"
             href={`tel:${personalData.basics.phone}`}
           >
             {personalData.basics.phone}
-          </Link>
+          </Link> */}
         </div>
         <div>
           <p className="font-medium text-center mb-2">Mail</p>
